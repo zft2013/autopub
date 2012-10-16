@@ -5,7 +5,7 @@
  */
 
 !defined('EMLOG_ROOT') && exit('access deined!');
-!defined('AUTOPUB_CACHE_DIR') && define('AUTOPUB_CACHE_DIR', EMLOG_ROOT.'/content/plugins/autopub/cache/');
+!defined('AUTOPUB_CACHE_DIR') && define('AUTOPUB_CACHE_DIR', EMLOG_ROOT.'/content/plugins/autopub/autopub_file/');
 function plugin_setting_view(){
 }
 function adminview(){

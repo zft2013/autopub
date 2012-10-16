@@ -9,7 +9,7 @@ Author Email: sahala_2007@126.com
 Author URL: http://xiaosong.org
 */
 !defined('EMLOG_ROOT') && exit('access deined!');
-!defined('AUTOPUB_CACHE_DIR') && define('AUTOPUB_CACHE_DIR', EMLOG_ROOT.'/content/plugins/autopub/cache/');
+!defined('AUTOPUB_CACHE_DIR') && define('AUTOPUB_CACHE_DIR', EMLOG_ROOT.'/content/plugins/autopub/autopub_file/');
 
 function dir_is_empty($dir){ 
   if($handle = opendir($dir)){

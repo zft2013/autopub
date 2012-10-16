@@ -1,6 +1,6 @@
 <?php
 !defined('EMLOG_ROOT') && exit('access deined!');
-define('AUTOPUB_CACHE_DIR', EMLOG_ROOT.'/content/plugins/autopub/cache/');
+define('AUTOPUB_CACHE_DIR', EMLOG_ROOT.'/content/plugins/autopub/autopub_file/');
 set_time_limit(0);
 $DB = MySql::getInstance();
 $CACHE = Cache::getInstance();
