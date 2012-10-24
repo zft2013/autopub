@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: 自动发布
-Version: 1.9.2
+Version: 1.9.3
 Plugin URL: http://xiaosong.org/share/auto-pub-plugin-update
 Description: 自动发布文章，修正时区问题，增加相关挂载点，自动删除缓存文件。
 Author: 小松

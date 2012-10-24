@@ -13,7 +13,7 @@ while($row = $DB->fetch_array($result)){
     $autopubCopyRight = '<p style="text-align:right;font-size:12px;">(此文通过<a href="http://xiaosong.org/share/auto-pub-plugin-update">emlog自动发布插件</a>发布)</p>';
     $content = $row['content'].$autopubCopyRight;
     if(time() > $pub_time){
-      $sql_do = "UPDATE ".DB_PREFIX."blog SET hide = 'n',date = '".$pub_time."',content = '".$content."' WHERE gid='".$row['gid']."'";
+      $sql_do = "UPDATE ".DB_PREFIX."blog SET hide = 'n',date = '".$pub_time."',content = '".addslashes($content)."' WHERE gid='".$row['gid']."'";
       $DB->query($sql_do);
       $CACHE->updateCache();
       doAction('save_log', $row['gid']);
