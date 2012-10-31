@@ -3,4 +3,11 @@ emlog 定时发布插件
 
 定时自动发布保存为草稿的日志。
 
-[插件主页](http://xiaosong.org/share/auto-pub-plugin-update)
+使用方法：
+--------------------
+1.  通过后台安装插件；
+2.  将你要预发布的文章统统写好但不要点发布，而是保存成草稿；
+3.  在插件后台去设置插件的触发条件和设置你要发布文章的时间，并保存；
+4.  木有了~元芳，对于此插件，你怎么看？
+
+[插件主页](http://xiaosong.org/share/new-version-automatically-publish-plugin-released)
